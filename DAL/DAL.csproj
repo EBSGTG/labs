@@ -11,10 +11,4 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="EF\" />
-      <Folder Include="Repositories\Impl\" />
-      <Folder Include="UnitOfWork\" />
-    </ItemGroup>
-
 </Project>
