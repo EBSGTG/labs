@@ -7,6 +7,13 @@ public class Measurement
     public DateTime Timestamp { get; set; }
     public double Value { get; set; }
 
+    public Measurement(string measurementID, string sensorID, double value)
+    {
+        MeasurementID = measurementID;
+        SensorID = sensorID;
+        Timestamp = DateTime.Now; // default timestamp
+        Value = value;
+    }
     public void RecordMeasurement()
     {
         // Записує нове вимірювання

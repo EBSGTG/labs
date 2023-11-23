@@ -1,9 +1,14 @@
 ﻿namespace Labs.Entities;
 public class Statistics
 {
-    public string StatisticsID { get; set; }
-    public object Data { get; set; }
+    public int StatisticsID { get; set; }
+    public double Data { get; set; }
 
+    public Statistics(int statisticsID, double data)
+    {
+        StatisticsID = statisticsID;
+        Data = data;
+    }
     public void UpdateStatistics()
     {
         

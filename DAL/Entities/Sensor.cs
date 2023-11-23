@@ -2,11 +2,19 @@
 
 public class Sensor
 {
-    public string SensorID { get; set; }
+    public int SensorID { get; set; }
     public string Location { get; set; }
     public List<Measurement> Readings { get; set; }
     public StatusEnum Status { get; set; }
 
+    
+    public Sensor(int sensorID, string location)
+    {
+        SensorID = sensorID;
+        Location = location;
+        Readings = new List<Measurement>();
+        Status = StatusEnum.Active; // default status
+    }
     public List<Measurement> GetReadings()
     {
         return Readings;
