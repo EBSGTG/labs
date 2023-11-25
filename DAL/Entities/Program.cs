@@ -1,13 +1,10 @@
 ﻿namespace Labs.Entities;
+using MySql.Data.MySqlClient;
 using System;
-public class Program
+
+class Program
 {
-   public static void Main()
+    static void Main()
     {
-      
-        Operator myOperator = new Operator(1, "JohnDoe");
-        
-
-
     }
 }

@@ -13,7 +13,7 @@ public class Sensor
         SensorID = sensorID;
         Location = location;
         Readings = new List<Measurement>();
-        Status = StatusEnum.Active; // default status
+        Status = StatusEnum.Active; 
     }
     public List<Measurement> GetReadings()
     {

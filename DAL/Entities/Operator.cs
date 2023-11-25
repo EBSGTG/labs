@@ -6,9 +6,9 @@ public class Operator
     public int OperatorID { get; set; }
     public string Username { get; set; }
 
-    public Operator(int operatorID, string username)
+    public Operator(int operatorId, string username)
     {
-        OperatorID = operatorID;
+        OperatorID = operatorId;
         Username = username;
     }
     

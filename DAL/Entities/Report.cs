@@ -11,8 +11,8 @@ public class Report
     {
         ReportID = reportID;
         OperatorID = operatorID;
-        GeneratedTimestamp = DateTime.Now; // default timestamp
-        Content = string.Empty; // default content
+        GeneratedTimestamp = DateTime.Now; 
+        Content = string.Empty; 
     }
     
     public void GenerateContent()

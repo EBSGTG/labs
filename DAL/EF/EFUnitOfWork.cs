@@ -8,7 +8,7 @@ namespace Labs.EF
 {
     public class EFUnitOfWork : IUnitOfWork
     {
-        public  SensorContext db;
+        private  SensorContext db;
         private SensorRepository sensorRepository;
         private AirQualitySensorRepository airQualitySensorRepository;
         private RadiationSensorRepository radiationSensorRepository;

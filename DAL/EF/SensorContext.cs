@@ -1,6 +1,7 @@
 ﻿using Labs.Entities;
 using Microsoft.EntityFrameworkCore;
-
+using System;
+using MySql.Data.MySqlClient;
 namespace Labs.EF
 {
     public class SensorContext : DbContext
@@ -16,13 +17,16 @@ namespace Labs.EF
         public DbSet<AlarmSystem> AlarmSystems { get; set; }
         public DbSet<Operator> Operators { get; set; }
 
+        
+        
         public SensorContext(DbContextOptions options) : base(options)
         {
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Тут можна визначити відносини між таблицями, якщо потрібно
+        
+        
+       
         }
+    
+
+
     }
-}
