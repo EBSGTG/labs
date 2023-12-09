@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78e3dee6_002D6bb9_002D4d8e_002Dacae_002D153b6f705690/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from BaseRepositoryUnitTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;EDA235FB-FD6D-45C0-894E-C324D04DBD19/d:DAL.tests/f:BaseRepositoryUnitTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::EDA235FB-FD6D-45C0-894E-C324D04DBD19::net8.0::Labs.DAL.Tests.SensorRepositoryInMemoryDbTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::EDA235FB-FD6D-45C0-894E-C324D04DBD19::net8.0::Labs.BLL.tests.ReportServiceTests.GetStreets_UserIsAdmin_ThrowMethodAccessException&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::EDA235FB-FD6D-45C0-894E-C324D04DBD19::net8.0::Labs.BLL.tests.ReportServiceTests.GetReports_StreetFromDAL_CorrectMappingToReportDTO&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::EDA235FB-FD6D-45C0-894E-C324D04DBD19::net8.0::Labs.BLL.tests.ReportServiceTests.Ctor_InputNull_ThrowArgumentNullException&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;EDA235FB-FD6D-45C0-894E-C324D04DBD19/d:BLL.tests/f:ReportServiceTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=95a8d229_002Dd268_002D47e0_002Daa13_002D5de87360404e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetReports_StreetFromDAL_CorrectMappingToReportDTO" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
